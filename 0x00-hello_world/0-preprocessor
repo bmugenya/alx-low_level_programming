@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -ansi $CFILE | ./a.out > c
+gcc $CFILE -o c
