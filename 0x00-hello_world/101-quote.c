@@ -1,7 +1,12 @@
 #include <stdio.h>
+
 /*
- * main - start the program
+ * main - Entry point
+ * Description: 'utilises fprintf to print text
+ *
+ *Return: Always 1 (Succed)
 */
+
 int main(void)
 {
 fprintf(stdout, "%s", "and that piece of art is useful\"");
