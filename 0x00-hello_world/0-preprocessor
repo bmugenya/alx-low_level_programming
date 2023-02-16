@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -ansi $CFILE | ./a.out > c
