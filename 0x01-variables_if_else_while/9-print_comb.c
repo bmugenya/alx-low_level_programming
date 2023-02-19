@@ -2,8 +2,9 @@
 /**
  * main - print all poossible combinations of single-digit numbers
  * 
- * Return - Always 0
+ * Return: Always 0
  */
+
 int main(void)
 {
   int x = 0;
