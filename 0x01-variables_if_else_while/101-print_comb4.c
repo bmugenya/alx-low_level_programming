@@ -15,7 +15,7 @@ int main()
     {
       for (y = x + 1; y < 9; y++)
 	{
-	  for (z = y + 1; z < 8; z++)
+	  for (z = y + 1; z < 10; z++)
 	    {
 	 
 	      putchar(x + '0');
