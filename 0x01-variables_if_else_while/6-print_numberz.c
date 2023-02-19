@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-int main(voi)
+int main(void)
 {
   int digit;
   for (digit = 0; digit < 10; digit++)
