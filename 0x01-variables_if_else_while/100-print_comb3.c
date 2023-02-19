@@ -17,9 +17,11 @@ int main()
 	 
 	    putchar(x + '0');
             putchar(y + '0');
-	    putchar(',');
-	    putchar(' ');
-	     
+	    if (x != 8 && y != 9)
+	    {
+	      putchar(',');
+	      putchar(' ');
+	    }
         }
     }
     putchar('\n');
