@@ -19,7 +19,7 @@ int main()
 	    putchar(x + '0');
             putchar(y + '0');
 	    putchar(',');
-	    puchar(' ');
+	    putchar(' ');
 	  }   
         }
     }
