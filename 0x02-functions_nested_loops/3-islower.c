@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase character
- *
+ * @x : letter to be checked 
  * Return : (1) Success or (0) fal
  */
 
