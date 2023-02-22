@@ -6,7 +6,7 @@
  */
 
 void print_to_98(int x)
-
+{
   if (x >= 0 && x <= 98)
     {
       _putchar(x);
