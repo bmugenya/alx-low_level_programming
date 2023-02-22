@@ -13,7 +13,7 @@ void print_to_98(int x)
 	 printf("%d", x);
          if (x < 98)
 	  x++;
-	 else if (x > 9
+	 else if (x > 9)
 	  x--;
 	 printf(", ");
         
