@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * _print_numbers - prints the digit from 0 to 9, followed by a new line
+*/
+
+void print_numbers(void)
+{
+  for (int x = 0; x <= 9;x++)
+    _putchar(x + '0');
+  _putchar('\n');
+}
