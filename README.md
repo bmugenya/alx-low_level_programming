@@ -1,1 +1,1 @@
-<h1>C - More functions, more nested loops</h1>
+<h1>C Programming</h1>
