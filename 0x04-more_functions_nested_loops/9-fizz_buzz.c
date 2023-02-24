@@ -2,6 +2,7 @@
 
 /**
  * main - prints the fizz buzz test, followed by a new line
+ * Return: 0 success
 */
 
 int main(void)
@@ -21,4 +22,5 @@ int main(void)
 	printf(" ");
       }
     printf("\n");
+    return (0);
 }
