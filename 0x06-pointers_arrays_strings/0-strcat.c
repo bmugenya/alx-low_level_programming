@@ -2,11 +2,12 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest - new destination of string
- * @src - source of the string 
+ * @dest: new destination of string
+ * @src: source of the string 
+ * Return: the new string
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
   int index = 0;
   int dest_size = 0;
