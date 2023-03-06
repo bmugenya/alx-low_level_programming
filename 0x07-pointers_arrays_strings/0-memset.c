@@ -5,6 +5,7 @@
  * @s: pointer of type char
  * @b: constant type byte
  * @n: number of bytes of the memory
+ * Return: a pointer with the filled memory
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -12,7 +13,8 @@ char *_memset(char *s, char b, unsigned int n)
   unsigned int index;
 
   for (index = 0; index < n; index++)
-    *(s + index) = b;
-
+    {
+      *(s + index) = b;
+    }
   return (s);
 }
