@@ -4,7 +4,7 @@
  * _strspn - gets the length of a prefix substring
  * @s: string 
  * @accept: acceptable bytes
- * Reurn: the number of bytes in the initial segmet  
+ * Return: the number of bytes in the initial segmet  
 */
 
 unsigned int _strspn(char *s, char *accept)
