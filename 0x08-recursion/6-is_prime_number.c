@@ -10,7 +10,7 @@
 int _is_prime(int n, int x)
 {
   if (x * x > n)
-    return (-1);
+    return (1);
   else if (n %  x == n)
     return (0);
   return (_is_prime(n, x + 1));
