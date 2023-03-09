@@ -3,9 +3,11 @@
 /**
  * _strlen_recursion - output length of characters and strings 
  * @s: character to be outpute in the stdout
- */
+ * Return: length of strings
+*/
 
-void _strlen_recursion(char *s)
+
+int _strlen_recursion(char *s)
 {
 
   if (*s == '\0')
