@@ -7,7 +7,7 @@
  * Return: square root of a number                                                                                                                    
 */
 
-int _sqrf(int n, int x)
+int _sqrtf(int n, int x)
 {
   if (x * x > n)
     return (-1);
