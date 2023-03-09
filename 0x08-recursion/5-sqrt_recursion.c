@@ -12,7 +12,7 @@ int _sqrtf(int n, int x)
   if (x * x > n)
     return (-1);
   else if (x * x == n)
-    return (*);
+    return (x);
   return (_sqrtf(n, x + 1));
 }
 
