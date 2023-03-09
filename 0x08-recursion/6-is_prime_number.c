@@ -19,12 +19,12 @@ int _is_prime(int n, int x)
 
 
 /**
- * _is_prime_number - checks if a given number is a prime number
+ * is_prime_number - checks if a given number is a prime number
  * @n: given number
  * Return: 1 if the input integer is a prime number, otherwise return 0 
 */
 
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
   if (n <=1)
     return (0);
